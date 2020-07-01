@@ -27,12 +27,19 @@ section{
 }
 .biography-background{
     background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
     
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
     
     
+    
+}
+.bottom{
+    background-image: url("images/footer-bg.png");
+    margin-top: 20px;
+
 }
 .link-button{
     text-decoration: none;
@@ -41,13 +48,25 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    background-image: linear-gradient(50deg, rgba(211, 70, 117, 0.986), rgba(204, 24, 84, 0.986))
+    background-image: linear-gradient(50deg, rgba(211, 70, 117, 0.986), rgba(204, 24, 84, 0.986));
+}
+.link-button1{
+    text-decoration: none;
+    background-color: rgba(211, 70, 117, 0.986);
+    padding: 0px 200px 70px 200px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(50deg, rgba(211, 70, 117, 0.986), rgba(204, 24, 84, 0.986));
+    
+    
 }
 .work{
     width: 32%;
     height: auto;
     float: left;
     padding: 0px 5px;
+
 }
 div.middle{
     text-align: center;
@@ -57,6 +76,30 @@ div.middle{
 .work img{
     width: 100%
 }
-footer h1,p,a{
-    text-align: center;
+#ceo{
+    color: rgb(99, 91, 91);
 }
+#email-box{
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(207, 12, 110);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+#nounderline{
+    text-decoration: none;
+    color: rgb(8, 240, 189);
+
+}
+
+
+}
+
+footer p{
+    text-align: center;
+    color: rgb(119, 113, 113);
+}
+
