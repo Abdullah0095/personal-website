@@ -2,7 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+#my-name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 .pink-highlight{
     color: rgb(204, 10, 75);
@@ -38,7 +42,8 @@ section{
 
 .bottom{
     background-image: url("images/footer-bg.png");
-    height: fit-content;
+    padding-top: 20px;
+    height: 450px;
 }
 
 .link-button{
@@ -51,24 +56,13 @@ section{
     background-image: linear-gradient(50deg, rgba(211, 70, 117, 0.986), rgba(204, 24, 84, 0.986));
 }
 
-.link-button1{
-    text-decoration: none;
-    background-color: rgba(211, 70, 117, 0.986);
-    padding: 0px 200px 70px 200px;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    background-image: linear-gradient(50deg, rgba(211, 70, 117, 0.986), rgba(204, 24, 84, 0.986));
-    
-    
-}
 .work{
     width: 32%;
     height: auto;
     float: left;
     padding: 0px 5px;
-
 }
+
 div.middle{
     text-align: center;
     font-weight: bold;
@@ -81,7 +75,8 @@ div.middle{
 }
 .experience-zone{
     background-image: url("images/biography-bg.png");
-    padding-top: 20px;
+    padding-top: 40px;
+    height: 500px;
 }
 #full-stack{
     border-left: 8px solid;
@@ -104,15 +99,19 @@ div.middle{
     margin: auto;
     width: 40%;
     height: 100px;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(207, 12, 110);
     border-radius: 15px;
     text-align: center;
     color: white;
+    
 }
-
+.xyz{
+    padding: 0px 0px 5px 0px;
+}
 footer p{
     text-align: center;
     color: rgb(27, 27, 27);
 }
+
 
